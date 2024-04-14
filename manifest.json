@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Ad Speed Increase",
+    "description": "This is a extension which helps you speed up YouTube Ads so that you can enjoy watching videos without waiting.",
+    "version": "1.0",
+    "background": {
+      "scripts": ["index.js"],
+      "persistent": false
+    },
+    "browser_action": {},
+    "permissions": ["activeTab", "tabs", "<all_urls>"]
+  }
+  
