@@ -6,9 +6,9 @@ if (!button) {
     button = document.querySelector(".ytp-button");
 }
 
-var unskippableOne = document.querySelector(".ytp-ad-preview-container .ytp-ad-preview-container-detached");
+var unskippableOne = document.querySelector(".ytp-ad-preview-container .ytp-ad-preview-container-detached .ytp-preview-ad .ytp-preview-ad__text ytp-preview-ad__text--font--small .ytp-preview-ad__text--padding--wide");
 if (!unskippableOne) {
-    unskippableOne = document.querySelector(".ytp-ad-preview-container-detached");
+    unskippableOne = document.querySelector(".ytp-preview-ad__text--font--small");
 }
 
 var flyoutCTA = document.querySelector(".ytp-ad-text .ytp-ad-preview-text-modern");
