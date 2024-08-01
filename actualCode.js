@@ -1,4 +1,5 @@
 var button = document.querySelector(".ytp-ad-skip-button-modern");
+
 if (!button) {
     button = document.querySelector(".ytp-skip-ad-button");
 }
@@ -22,11 +23,11 @@ if (!VideoElem) {
 }
 
 if (button.innerText.length > 0 || unskippableOne.innerText.length > 0) {
-    VideoElem.playbackRate = 11.0;
+    VideoElem.playbackRate = 15.0;
     if (button.innerText = "Skip") {
-        // button.click();
+        button.click();
     } else if (flyoutCTA.innerText = 'Video plays soon') {
-        VideoElem.playbackRate = 11.0;
+        VideoElem.playbackRate = 15.0;
     }
 
 
