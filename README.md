@@ -52,3 +52,4 @@ Add your preferred shortcut and click on update.
 
 
 ## Now whenever you will see an ad on Youtube. Just click the shortcut and your ad will disappear.
+( as of now, the youtube has made some changes therefore, it has been converted to and ad speed increaser, you have to skip the ad manually (maybe i will try some workaround and will update here, but for now, use it to just increase the speed of the ads.) )
